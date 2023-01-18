@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="shortcut icon" href="./assets/images/hb.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Form -->
+    <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('Vw8mTi3-6hSM8NrrO')
+</script>
+  </head>
+
+<body>
+  <div class="pre-loader">
+    <img src="./assets/images/hb.png">
+    <div class="load-wave">
+    
+      <span style="--item:1">L</span>
+      <span style="--item:2">O</span>
+      <span style="--item:3">A</span>
+      <span style="--item:4">D</span>
+      <span style="--item:5">I</span>
+      <span style="--item:6">N</span>
+      <span style="--item:7">G</span>
+      <span style="--item:8">.</span>
+      <span style="--item:9">.</span>
+      <span style="--item:10">.</span>
+    </div>
+  </div>
+  <main>
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.png" alt="Mohamed Hasan Basar" >
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">MOHAMED HASAN <br> BASAR</h1>
+
+          <p class="title">Front End developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:asanbasar5@gmail.com" class="contact-link">asanbasar5@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="Phone:+91 9087354162" class="contact-link">+91 9087354162</a>
+            </div>
+
+          </li>
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Eruvadi , Tirunelveli</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+    <div class="main-content">
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello, I am a highly skilled and motivated web developer with a strong background in computer science and
+            web development technologies. I have experience building responsive, user-friendly websites and web
+            applications using a variety of programming languages, frameworks, and libraries. I am always looking to
+            expand my skill set and stay up-to-date with the latest developments in the field. In my previous roles, I
+            have consistently delivered successful projects on time and within budget, and I am known for my ability to
+            think creatively and solve complex problems. I am excited to bring my skills and experience to a new
+            opportunity and make a meaningful contribution to a dynamic team.
+          </p>
+          <button class="download"> <a href="assets/Mohamed Hasan.pdf" download >Download CV </a><ion-icon name="download-outline" style="font-size: 1.6em;" class="download-icon"></ion-icon><ion-icon name="checkbox-outline" style="font-size: 1.6em;" class="complete-icon"></ion-icon></button>
+        </section>
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+           
+           
+          </section>
+
+        </div>
+      </article>
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web D School, Chennai</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+               Web Designing & Development
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sadakathullah Appa College</h4>
+
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+               B.Sc.Computer science
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High School</h4>
+
+              <span>2016 — 2017</span>
+
+              <p class="timeline-text">
+               Computer science
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+        <div class="skills-logo">
+         
+          <img src="./assets/images/pngegg(8).png">
+          <img src="./assets/images/pngegg(9).png">
+          <img src="./assets/images/pngegg(10).png">
+          <img src="./assets/images/pngegg(19).png">
+          <img src="./assets/images/11.png">
+        
+          <img src="./assets/images/pngegg(13).png">
+          <img src="./assets/images/pngegg(14).png">
+          <img src="./assets/images/pngegg(17).png">
+          <img src="./assets/images/pngegg(18).png">
+        </div>
+            <div class="skills-logo">
+         
+          
+      
+        </div>
+
+              </section>
+
+      </article>
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+           
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+             
+
+            </ul>
+
+          </div>
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://hasanbasar5.github.io/tyreshop/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (14).png"  loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tyre Shop</h3>
+
+      
+                <p class="project-category">Mobile Responsive</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://hasanbasar5.github.io/food-website/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot 2023-01-17 at 21-22-05 burger.png"  >
+                </figure>
+
+                <h3 class="project-title">Burger Shop</h3>
+
+             
+               <p class="project-category">Mobile Responsive</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (22).png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dubai Tourist Website</h3>
+
+                <p class="project-category">Desktop View Only</p> 
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://hasanbasar5.github.io/newweather-/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (16).png"  >
+                </figure>
+
+                <h3 class="project-title">Weather App</h3>
+
+              
+                <p class="project-category">Mobile View Only</p>
+
+              </a>
+            </li>
+            
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://hasanbasar5.github.io/new-watches/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (19).png"  loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Watch</h3>
+
+              <p class="project-category">Desktop View Only</p> 
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://hasanbasar5.github.io/newbmiapp/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (17).png"  loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BMI Webapp</h3>
+
+            
+                <p class="project-category">Mobile Responsive</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://hasanbasar5.github.io/musclefit/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot 2023-01-17 at 21-36-06 Document.png"  loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Gym Website</h3>
+
+             
+               <p class="project-category">Mobile Responsive</p>
+
+              </a>
+            </li>
+
+           
+
+          
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://hasanbasar5.github.io/hospital/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot 2023-01-17 at 21-32-05 Document.png" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hospital Website</h3>
+                <p class="project-category">Desktop View Only</p> 
+                
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://hasanbasar5.github.io/movietime/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (24).png"  loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Movie App</h3>
+
+              
+                <p class="project-category">Mobile Responsive</p> 
+                
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://hasanbasar5.github.io/firebolt/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot 2023-01-18 at 01-16-49 Document.png"  loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Watch</h3>
+
+              
+                <p class="project-category">Desktop View Only</p> 
+                
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form id="form">
+
+            <div class="input-wrapper field">
+              <label for="from_name">from_name</label>
+              <input type="text" name="from_name" id="from_name" class="form-input" placeholder="Full name" required data-form-input>
+              <label for="email_id">from_name</label>
+              <input type="email" name="email_id" id="email_id" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <label for="message">from_name</label>
+            <textarea name="message" id="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" id="button" value="Send Email" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+  <script src="./assets/js/script.js"></script>
+  <script>
+    const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_tv1edbm';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Successfully sent ');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+  </script>
+  
+</body>
+
+</html>
